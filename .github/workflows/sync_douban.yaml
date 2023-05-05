@@ -31,7 +31,7 @@ jobs:
       - name: install python requirements
         run: pip install -r requirements.txt
       - name: sync douban
-        if: env.USER_AGENT != null && env.DOUBAN_USER_ID != null && env.DOUBAN_DAY != null && env.NOTION_TOKEN != null
+        if: env.USER_AGENT != null && env.DOUBAN_USER_ID != null && env.NOTION_TOKEN != null
         run: |
           python3 run.py -m music -s all
           python3 run.py -m book -s all
