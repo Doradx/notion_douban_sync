@@ -36,4 +36,3 @@ jobs:
           python3 run.py -m music -s all
           python3 run.py -m book -s all
           python3 run.py -m movie -s all
-          python3 run.py -m game -s all
