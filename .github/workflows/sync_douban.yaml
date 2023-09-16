@@ -19,6 +19,7 @@ env:
 jobs:
   sync_douban:
     runs-on: macos-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v3
       - name: create config
